@@ -37,11 +37,11 @@ namespace projectWhile
             while (option != 4)
             {
                 if(option == 1) {
-                    alcool += 1;
+                    alcool ++;
                 }else if(option == 2) {
-                    gasolina += 1;
+                    gasolina ++;
                 }else if(option == 3) {
-                    diesel += 1;
+                    diesel ++;
                 }
                 System.Console.WriteLine("Selecione o tipode combustível desejado:");
                 System.Console.Write("1.Álcool 2.Gasolina 3.Diesel 4.Fim: ");
